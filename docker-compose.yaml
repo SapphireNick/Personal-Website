@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+  next-js-app:
+    build: .
+    ports:
+      - "3000:3000"
+    networks:
+      - web-net
+networks:
+  web-net:
+    name: custom-network
