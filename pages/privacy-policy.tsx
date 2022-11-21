@@ -9,17 +9,21 @@ export default function PrivacyPolicy() {
         <title>Privacy Policy</title>
       </Head>
       <Header />
-      <div className="hero min-h-screen bg-base 200">
-        <div className="hero-content text-center">
-          <h1 className="text-5xl text-bold">Datenschutz&shy;erkl&auml;rung</h1>
+      <div className="hero min-h-fit bg-base-200">
+        <div className="hero-content flex-col text-center">
+          <h1 className="text-xl md:text-3xl mt-12 md:mt-16 text-bold">
+            Datenschutz&shy;erkl&auml;rung
+          </h1>
         </div>
       </div>
-      <div className="mx-24">
-        <h2 className="text-4xl text-bold my-2">
+      <div className="grid grid-flow-row bg-base-100 px-6 sm:px-20 md:px-24">
+        <h2 className="text-2xl md:text-4xl text-bold my-2">
           1. Datenschutz auf einen Blick
         </h2>
-        <h3 className="text-3xl text-bold my-2">Allgemeine Hinweise</h3>{" "}
-        <p>
+        <h3 className="text-xl md:text-3xl text-bold my-2">
+          Allgemeine Hinweise
+        </h3>{" "}
+        <p className="text-xs md:text-base">
           Die folgenden Hinweise geben einen einfachen &Uuml;berblick
           dar&uuml;ber, was mit Ihren personenbezogenen Daten passiert, wenn Sie
           diese Website besuchen. Personenbezogene Daten sind alle Daten, mit
@@ -27,43 +31,45 @@ export default function PrivacyPolicy() {
           Ausf&uuml;hrliche Informationen zum Thema Datenschutz entnehmen Sie
           unserer unter diesem Text aufgef&uuml;hrten Datenschutzerkl&auml;rung.
         </p>
-        <h3 className="text-3xl text-bold my-2">
+        <h3 className="text-xl md:text-3xl text-bold my-2">
           Datenerfassung auf dieser Website
         </h3>{" "}
-        <h4 className="text-xl text-bold my-2">
+        <h4 className="text-md md:text-xl text-bold my-2">
           Wer ist verantwortlich f&uuml;r die Datenerfassung auf dieser Website?
         </h4>{" "}
-        <p>
+        <p className="text-xs md:text-base">
           Die Datenverarbeitung auf dieser Website erfolgt durch den
           Websitebetreiber. Dessen Kontaktdaten k&ouml;nnen Sie dem Abschnitt
           &bdquo;Hinweis zur Verantwortlichen Stelle&ldquo; in dieser
           Datenschutzerkl&auml;rung entnehmen.
         </p>{" "}
-        <h4 className="text-xl text-bold my-2">Wie erfassen wir Ihre Daten?</h4>{" "}
-        <p>
+        <h4 className="text-md md:text-xl text-bold my-2">
+          Wie erfassen wir Ihre Daten?
+        </h4>{" "}
+        <p className="text-xs md:text-base">
           Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese
           mitteilen. Hierbei kann es sich z.&nbsp;B. um Daten handeln, die Sie
           in ein Kontaktformular eingeben.
         </p>{" "}
-        <p>
+        <p className="text-xs md:text-base">
           Andere Daten werden automatisch oder nach Ihrer Einwilligung beim
           Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem
           technische Daten (z.&nbsp;B. Internetbrowser, Betriebssystem oder
           Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt
           automatisch, sobald Sie diese Website betreten.
         </p>{" "}
-        <h4 className="text-xl text-bold my-2">
+        <h4 className="text-md md:text-xl text-bold my-2">
           Wof&uuml;r nutzen wir Ihre Daten?
         </h4>{" "}
-        <p>
+        <p className="text-xs md:text-base">
           Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung
           der Website zu gew&auml;hrleisten. Andere Daten k&ouml;nnen zur
           Analyse Ihres Nutzerverhaltens verwendet werden.
         </p>{" "}
-        <h4 className="text-xl text-bold my-2">
+        <h4 className="text-md md:text-xl text-bold my-2">
           Welche Rechte haben Sie bez&uuml;glich Ihrer Daten?
         </h4>{" "}
-        <p>
+        <p className="text-xs md:text-base">
           Sie haben jederzeit das Recht, unentgeltlich Auskunft &uuml;ber
           Herkunft, Empf&auml;nger und Zweck Ihrer gespeicherten
           personenbezogenen Daten zu erhalten. Sie haben au&szlig;erdem ein
@@ -75,14 +81,16 @@ export default function PrivacyPolicy() {
           personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein
           Beschwerderecht bei der zust&auml;ndigen Aufsichtsbeh&ouml;rde zu.
         </p>{" "}
-        <p>
+        <p className="text-xs md:text-base">
           Hierzu sowie zu weiteren Fragen zum Thema Datenschutz k&ouml;nnen Sie
           sich jederzeit an uns wenden.
         </p>
-        <h2 className="text-4xl text-bold my-2">2. Hosting</h2>
-        <p>Wir hosten die Inhalte unserer Website bei folgendem Anbieter:</p>
-        <h3 className="text-3xl text-bold my-2">Externes Hosting</h3>{" "}
-        <p>
+        <h2 className="text-2xl md:text-4xl text-bold my-2">2. Hosting</h2>
+        <p className="text-xs md:text-base">
+          Wir hosten die Inhalte unserer Website bei folgendem Anbieter:
+        </p>
+        <h3 className="text-xl md:text-3xl text-bold my-2">Externes Hosting</h3>{" "}
+        <p className="text-xs md:text-base">
           Diese Website wird extern gehostet. Die personenbezogenen Daten, die
           auf dieser Website erfasst werden, werden auf den Servern des Hosters
           / der Hoster gespeichert. Hierbei kann es sich v.&nbsp;a. um
@@ -90,7 +98,7 @@ export default function PrivacyPolicy() {
           Vertragsdaten, Kontaktdaten, Namen, Websitezugriffe und sonstige
           Daten, die &uuml;ber eine Website generiert werden, handeln.
         </p>{" "}
-        <p>
+        <p className="text-xs md:text-base">
           Das externe Hosting erfolgt zum Zwecke der Vertragserf&uuml;llung
           gegen&uuml;ber unseren potenziellen und bestehenden Kunden (Art. 6
           Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen und
@@ -103,28 +111,30 @@ export default function PrivacyPolicy() {
           Nutzers (z.&nbsp;B. Device-Fingerprinting) im Sinne des TTDSG umfasst.
           Die Einwilligung ist jederzeit widerrufbar.
         </p>{" "}
-        <p>
+        <p className="text-xs md:text-base">
           Unser(e) Hoster wird bzw. werden Ihre Daten nur insoweit verarbeiten,
           wie dies zur Erf&uuml;llung seiner Leistungspflichten erforderlich ist
           und unsere Weisungen in Bezug auf diese Daten befolgen.
         </p>{" "}
-        <p>Wir setzen folgende(n) Hoster ein:</p>
+        <p className="text-xs md:text-base">
+          Wir setzen folgende(n) Hoster ein:
+        </p>
         <p className="text-bold my-5">
           DigitalOcean
           <br />
           101 6th Ave New York, NY 10013
         </p>
-        <h2 className="text-4xl text-bold my-2">
+        <h2 className="text-2xl md:text-4xl text-bold my-2">
           3. Allgemeine Hinweise und Pflicht&shy;informationen
         </h2>
-        <h3 className="text-3xl text-bold my-2">Datenschutz</h3>{" "}
-        <p>
+        <h3 className="text-xl md:text-3xl text-bold my-2">Datenschutz</h3>{" "}
+        <p className="text-xs md:text-base">
           Die Betreiber dieser Seiten nehmen den Schutz Ihrer pers&ouml;nlichen
           Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten
           vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften
           sowie dieser Datenschutzerkl&auml;rung.
         </p>{" "}
-        <p>
+        <p className="text-xs md:text-base">
           Wenn Sie diese Website benutzen, werden verschiedene personenbezogene
           Daten erhoben. Personenbezogene Daten sind Daten, mit denen Sie
           pers&ouml;nlich identifiziert werden k&ouml;nnen. Die vorliegende
@@ -132,29 +142,31 @@ export default function PrivacyPolicy() {
           wof&uuml;r wir sie nutzen. Sie erl&auml;utert auch, wie und zu welchem
           Zweck das geschieht.
         </p>{" "}
-        <p>
+        <p className="text-xs md:text-base">
           Wir weisen darauf hin, dass die Daten&uuml;bertragung im Internet
           (z.&nbsp;B. bei der Kommunikation per E-Mail) Sicherheitsl&uuml;cken
           aufweisen kann. Ein l&uuml;ckenloser Schutz der Daten vor dem Zugriff
           durch Dritte ist nicht m&ouml;glich.
         </p>
-        <h3 className="text-3xl text-bold my-2">
+        <h3 className="text-xl md:text-3xl text-bold my-2">
           Hinweis zur verantwortlichen Stelle
         </h3>{" "}
-        <p>
+        <p className="text-xs md:text-base">
           Die verantwortliche Stelle f&uuml;r die Datenverarbeitung auf dieser
           Website ist:
         </p>{" "}
-        <p>Nikita-Nick Funk</p>
-        <p>E-Mail: nikita.nick.funk@gmail.com</p>
-        <p>
+        <p className="text-xs md:text-base">Nikita-Nick Funk</p>
+        <p className="text-xs md:text-base">
+          E-Mail: nikita.nick.funk@gmail.com
+        </p>
+        <p className="text-xs md:text-base">
           Verantwortliche Stelle ist die nat&uuml;rliche oder juristische
           Person, die allein oder gemeinsam mit anderen &uuml;ber die Zwecke und
           Mittel der Verarbeitung von personenbezogenen Daten (z.&nbsp;B. Namen,
           E-Mail-Adressen o. &Auml;.) entscheidet.
         </p>
-        <h3 className="text-3xl text-bold my-2">Speicherdauer</h3>{" "}
-        <p>
+        <h3 className="text-xl md:text-3xl text-bold my-2">Speicherdauer</h3>{" "}
+        <p className="text-xs md:text-base">
           Soweit innerhalb dieser Datenschutzerkl&auml;rung keine speziellere
           Speicherdauer genannt wurde, verbleiben Ihre personenbezogenen Daten
           bei uns, bis der Zweck f&uuml;r die Datenverarbeitung entf&auml;llt.
@@ -166,11 +178,11 @@ export default function PrivacyPolicy() {
           Aufbewahrungsfristen); im letztgenannten Fall erfolgt die
           L&ouml;schung nach Fortfall dieser Gr&uuml;nde.
         </p>
-        <h3 className="text-3xl text-bold my-2">
+        <h3 className="text-xl md:text-3xl text-bold my-2">
           Allgemeine Hinweise zu den Rechtsgrundlagen der Datenverarbeitung auf
           dieser Website
         </h3>{" "}
-        <p>
+        <p className="text-xs md:text-base">
           Sofern Sie in die Datenverarbeitung eingewilligt haben, verarbeiten
           wir Ihre personenbezogenen Daten auf Grundlage von Art. 6 Abs. 1 lit.
           a DSGVO bzw. Art. 9 Abs. 2 lit. a DSGVO, sofern besondere
@@ -193,21 +205,21 @@ export default function PrivacyPolicy() {
           jeweils im Einzelfall einschl&auml;gigen Rechtsgrundlagen wird in den
           folgenden Abs&auml;tzen dieser Datenschutzerkl&auml;rung informiert.
         </p>
-        <h3 className="text-3xl text-bold my-2">
+        <h3 className="text-xl md:text-3xl text-bold my-2">
           Widerruf Ihrer Einwilligung zur Datenverarbeitung
         </h3>{" "}
-        <p>
+        <p className="text-xs md:text-base">
           Viele Datenverarbeitungsvorg&auml;nge sind nur mit Ihrer
           ausdr&uuml;cklichen Einwilligung m&ouml;glich. Sie k&ouml;nnen eine
           bereits erteilte Einwilligung jederzeit widerrufen. Die
           Rechtm&auml;&szlig;igkeit der bis zum Widerruf erfolgten
           Datenverarbeitung bleibt vom Widerruf unber&uuml;hrt.
         </p>
-        <h3 className="text-3xl text-bold my-2">
+        <h3 className="text-xl md:text-3xl text-bold my-2">
           Widerspruchsrecht gegen die Datenerhebung in besonderen F&auml;llen
           sowie gegen Direktwerbung (Art. 21 DSGVO)
         </h3>{" "}
-        <p>
+        <p className="text-xs md:text-base">
           WENN DIE DATENVERARBEITUNG AUF GRUNDLAGE VON ART. 6 ABS. 1 LIT. E ODER
           F DSGVO ERFOLGT, HABEN SIE JEDERZEIT DAS RECHT, AUS GR&Uuml;NDEN, DIE
           SICH AUS IHRER BESONDEREN SITUATION ERGEBEN, GEGEN DIE VERARBEITUNG
@@ -222,7 +234,7 @@ export default function PrivacyPolicy() {
           VERARBEITUNG DIENT DER GELTENDMACHUNG, AUS&Uuml;BUNG ODER VERTEIDIGUNG
           VON RECHTSANSPR&Uuml;CHEN (WIDERSPRUCH NACH ART. 21 ABS. 1 DSGVO).
         </p>{" "}
-        <p>
+        <p className="text-xs md:text-base">
           WERDEN IHRE PERSONENBEZOGENEN DATEN VERARBEITET, UM DIREKTWERBUNG ZU
           BETREIBEN, SO HABEN SIE DAS RECHT, JEDERZEIT WIDERSPRUCH GEGEN DIE
           VERARBEITUNG SIE BETREFFENDER PERSONENBEZOGENER DATEN ZUM ZWECKE
@@ -232,11 +244,11 @@ export default function PrivacyPolicy() {
           MEHR ZUM ZWECKE DER DIREKTWERBUNG VERWENDET (WIDERSPRUCH NACH ART. 21
           ABS. 2 DSGVO).
         </p>
-        <h3 className="text-3xl text-bold my-2">
+        <h3 className="text-xl md:text-3xl text-bold my-2">
           Beschwerde&shy;recht bei der zust&auml;ndigen
           Aufsichts&shy;beh&ouml;rde
         </h3>{" "}
-        <p>
+        <p className="text-xs md:text-base">
           Im Falle von Verst&ouml;&szlig;en gegen die DSGVO steht den
           Betroffenen ein Beschwerderecht bei einer Aufsichtsbeh&ouml;rde,
           insbesondere in dem Mitgliedstaat ihres gew&ouml;hnlichen Aufenthalts,
@@ -244,10 +256,10 @@ export default function PrivacyPolicy() {
           Versto&szlig;es zu. Das Beschwerderecht besteht unbeschadet
           anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.
         </p>
-        <h3 className="text-3xl text-bold my-2">
+        <h3 className="text-xl md:text-3xl text-bold my-2">
           Recht auf Daten&shy;&uuml;bertrag&shy;barkeit
         </h3>{" "}
-        <p>
+        <p className="text-xs md:text-base">
           Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung
           oder in Erf&uuml;llung eines Vertrags automatisiert verarbeiten, an
           sich oder an einen Dritten in einem g&auml;ngigen, maschinenlesbaren
@@ -255,10 +267,10 @@ export default function PrivacyPolicy() {
           &Uuml;bertragung der Daten an einen anderen Verantwortlichen
           verlangen, erfolgt dies nur, soweit es technisch machbar ist.
         </p>
-        <h3 className="text-3xl text-bold my-2">
+        <h3 className="text-xl md:text-3xl text-bold my-2">
           Auskunft, L&ouml;schung und Berichtigung
         </h3>{" "}
-        <p>
+        <p className="text-xs md:text-base">
           Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit
           das Recht auf unentgeltliche Auskunft &uuml;ber Ihre gespeicherten
           personenbezogenen Daten, deren Herkunft und Empf&auml;nger und den
@@ -266,10 +278,10 @@ export default function PrivacyPolicy() {
           L&ouml;schung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema
           personenbezogene Daten k&ouml;nnen Sie sich jederzeit an uns wenden.
         </p>
-        <h3 className="text-3xl text-bold my-2">
+        <h3 className="text-xl md:text-3xl text-bold my-2">
           Recht auf Einschr&auml;nkung der Verarbeitung
         </h3>{" "}
-        <p>
+        <p className="text-xs md:text-base">
           Sie haben das Recht, die Einschr&auml;nkung der Verarbeitung Ihrer
           personenbezogenen Daten zu verlangen. Hierzu k&ouml;nnen Sie sich
           jederzeit an uns wenden. Das Recht auf Einschr&auml;nkung der
@@ -305,7 +317,7 @@ export default function PrivacyPolicy() {
             Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
           </li>{" "}
         </ul>{" "}
-        <p>
+        <p className="text-xs md:text-base">
           Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten
           eingeschr&auml;nkt haben, d&uuml;rfen diese Daten &ndash; von ihrer
           Speicherung abgesehen &ndash; nur mit Ihrer Einwilligung oder zur
@@ -315,10 +327,10 @@ export default function PrivacyPolicy() {
           wichtigen &ouml;ffentlichen Interesses der Europ&auml;ischen Union
           oder eines Mitgliedstaats verarbeitet werden.
         </p>
-        <h3 className="text-3xl text-bold my-2">
+        <h3 className="text-xl md:text-3xl text-bold my-2">
           Widerspruch gegen Werbe-E-Mails
         </h3>{" "}
-        <p>
+        <p className="text-xs md:text-base">
           Der Nutzung von im Rahmen der Impressumspflicht ver&ouml;ffentlichten
           Kontaktdaten zur &Uuml;bersendung von nicht ausdr&uuml;cklich
           angeforderter Werbung und Informationsmaterialien wird hiermit
@@ -326,7 +338,7 @@ export default function PrivacyPolicy() {
           ausdr&uuml;cklich rechtliche Schritte im Falle der unverlangten
           Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.
         </p>
-        <p className="my-5">
+        <p className="text-sm md:text-base my-5">
           Quelle:{" "}
           <a href="https://www.e-recht24.de">https://www.e-recht24.de</a>
         </p>
